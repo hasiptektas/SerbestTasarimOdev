@@ -1,10 +1,17 @@
 # SerbestTasarimOdev
 TechCareer BootCamp
 
+<p align="center">
+  <img src="https://i.imgur.com/A8XG1xW.png" width="350" title="Referans Tasarım">
+</p>
 
-! [Referans Tasarım] (https://i.imgur.com/A8XG1xW.png)
+<p align="center">
+  <img src="https://i.imgur.com/KH1QnIO.png" width="350" title="Emülatör Ekran Görünütüsü">
+</p>
 
-! [Emülatör Ekran Görünütüsü] (https://i.imgur.com/KH1QnIO.png)
+<p align="center">
+  <img src="https://i.imgur.com/lUTCnFJ.png" width="350" title="Fiziksel Cihaz">
+</p>
 
-! [Fiziksel Cihaz] (https://i.imgur.com/lUTCnFJ.png)
+
 
