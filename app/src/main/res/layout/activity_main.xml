@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/font"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="100"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="48"
+            android:background="@drawable/background_gradient_2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:color="@android:color/transparent"
+                        app:icon="@drawable/ic_outline_arrow_back_ios_24" />
+
+
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="276dp"
+                    android:layout_height="200dp"
+
+
+                    app:srcCompat="@drawable/spotify_main_image" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/redressed_regular"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="25dp"
+                    android:text="@string/aciklama"
+                    android:textColor="#22FFE5"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="45dp"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="0dp"
+                    android:src="@drawable/spotify_icon"></ImageView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/redressed_regular"
+                    android:paddingTop="15dp"
+                    android:text="@string/spotify"
+                    android:textColor="#339c20"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="52"
+            android:background="#1e1e1f"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/redressed_regular"
+                    android:paddingLeft="10dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/likes"
+                    android:textColor="#22FFE5"
+                    android:textSize="15dp"
+                    android:textStyle="bold"></TextView>
+
+
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="25dp">
+
+                    <Button
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:paddingLeft="10dp"
+                        app:icon="@drawable/ic_baseline_favorite_border_24"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <Button
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:paddingLeft="10dp"
+                        app:icon="@drawable/ic_baseline_arrow_circle_down_24"
+                        tools:ignore="TouchTargetSizeCheck" />
+
+                    <Button
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                        android:layout_width="50dp"
+                        android:layout_height="20dp"
+                        android:paddingLeft="10dp"
+                        app:icon="@drawable/ic_baseline_more_horiz_24"
+                        tools:ignore="TouchTargetSizeCheck" />
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/circle_play_button">
+
+                    <Button
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:color="#56F800"
+                        android:gravity="right"
+                        android:paddingLeft="0dp"
+                        app:icon="@drawable/ic_baseline_arrow_right_24" />
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="85dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/taylor_swift" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:fontFamily="@font/redressed_regular"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:text="@string/taylor"
+                            android:textColor="#339C20"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/redressed_regular"
+                            android:paddingLeft="25dp"
+                            android:paddingTop="8dp"
+                            android:text="@string/taylor_song"
+                            android:textColor="#22FFE5"
+                            android:textSize="18sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+
+                    android:paddingTop="15dp">
+
+                    <Button
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:color="#56F800"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+                        app:icon="@drawable/ic_baseline_more_horiz_24" />
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="85dp"
+                        android:paddingTop="10dp"
+                        android:src="@drawable/night_song" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:fontFamily="@font/redressed_regular"
+                            android:paddingLeft="20dp"
+                            android:paddingTop="20dp"
+                            android:text="@string/ikinci_isim"
+                            android:textColor="#339C20"
+                            android:textSize="23sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/redressed_regular"
+                            android:paddingLeft="25dp"
+                            android:paddingTop="8sp"
+                            android:text="@string/ikinci_sarki"
+                            android:textColor="#22FFE5"
+                            android:textSize="20sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.google.android.material.button.MaterialButtonToggleGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+
+                    android:paddingTop="15dp">
+
+                    <Button
+                        style="@style/Widget.App.Button.OutlinedButton.IconOnly"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:color="#56F800"
+                        android:gravity="right"
+                        android:paddingLeft="10dp"
+                        app:icon="@drawable/ic_baseline_more_horiz_24" />
+                </com.google.android.material.button.MaterialButtonToggleGroup>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

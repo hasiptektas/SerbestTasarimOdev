@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SerbestTasarimOdev</string>
+
+    <string name="aciklama">Soft, relaxing music for workout recovery.</string>
+    <string name="spotify">Spotify</string>
+    <string name="likes">10 Likes . 3h 16m</string>
+    <string name="taylor">Taylor Swift</string>
+    <string name="taylor_song">The Last Time</string>
+    <string name="ikinci_isim">Night Song</string>
+    <string name="ikinci_sarki">Band Name</string>
+</resources>
