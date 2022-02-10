@@ -4,7 +4,7 @@ TechCareer BootCamp
 
 #Refreans Tasarım
 <p align="center">
-  <img src="https://i.imgur.com/A8XG1xW.png" width="350" height="750" title="Referans Tasarım">
+  <img src="https://i.imgur.com/A8XG1xW.png" width="350"  title="Referans Tasarım">
 </p>
 
 #Emülatör Ekran Görünütüsü
@@ -14,7 +14,7 @@ TechCareer BootCamp
 
 #Fiziksel Cihaz
 <p align="center">
-  <img src="https://i.imgur.com/lUTCnFJ.png" width="350" height="750" title="Fiziksel Cihaz">
+  <img src="https://i.imgur.com/lUTCnFJ.png" width="350" title="Fiziksel Cihaz">
 </p>
 
 
